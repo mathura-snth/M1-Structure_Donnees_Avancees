@@ -11,3 +11,8 @@ arraylist_analysis
 
 # Fichiers cachés système (ex: Mac)
 .DS_Store
+
+echo "*.plot" > .gitignore
+echo "*.pdf" >> .gitignore
+echo "*.o" >> .gitignore
+echo "tas_binaire" >> .gitignoretas_binaire

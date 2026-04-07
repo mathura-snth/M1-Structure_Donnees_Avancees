@@ -1,0 +1,27 @@
+# Configuration globale
+set terminal pdf color font "Helvetica,16"
+set grid
+
+# --- GRAPHIQUE 1 : TEMPS AMORTI ---
+set output 'fixed_binary_heap_amortized_time_C.pdf'
+set title "Temps amorti d'ajout (C)"
+set xlabel "Nombre d'éléments ajoutés"
+set ylabel "Temps (nanosecondes)"
+
+# On lit le fichier généré par ton programme C
+plot '../plots/fixed_heap_time_c.plot' using 1:3 w lines title "Temps amorti", \
+     '../plots/fixed_heap_time_c.plot' using 1:2 w dots lc rgb "grey" title "Temps brut"
+
+# --- GRAPHIQUE 2 : NOMBRE D'ÉCHANGES (SWAPS) ---
+set output 'fixed_binary_heap_swap_C.pdf'
+set title "Nombre d'échanges (Swaps)"
+set ylabel "Nombre d'échanges"
+
+plot '../plots/fixed_heap_swap_c.plot' using 1:2 w dots title "Swaps"
+
+# --- GRAPHIQUE 3 : MÉMOIRE ---
+set output 'fixed_binary_heap_wasted_memory_C.pdf'
+set title "Mémoire gaspillée"
+set ylabel "Cases vides"
+
+plot '../plots/fixed_heap_memory_c.plot' using 1:2 w lines title "Mémoire inutilisée"
