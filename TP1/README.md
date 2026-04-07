@@ -2,7 +2,7 @@
 
 ## Exercice 1 : Analyse comparative (Alpha = 2)
 
-nous avons commencé par inspecter les fichiers main des différents langages pour vérifier que la même expérience (insertions successives) y était reproduite à l'identique. Nous avons ensuite exécuté le script sh launch_analysis.sh afin de lancer les différents benchmarks, ce qui a généré les graphiques au format PDF dans le répertoire plots sur lesquels se base notre analyse.Nous avons comparé les performances des tableaux dynamiques en C, C++, Java et Python avec un facteur d'agrandissement $\alpha = 2$ (la capacité double à chaque fois que le tableau est plein).
+Nous avons commencé par inspecter les fichiers main des différents langages pour vérifier que la même expérience (insertions successives) y était reproduite à l'identique. Nous avons ensuite exécuté le script sh launch_analysis.sh afin de lancer les différents benchmarks, ce qui a généré les graphiques au format PDF dans le répertoire plots sur lesquels se base notre analyse.Nous avons comparé les performances des tableaux dynamiques en C, C++, Java et Python avec un facteur d'agrandissement $\alpha = 2$ (la capacité double à chaque fois que le tableau est plein).
 
 
 ### 1. Analyse du Temps (Vitesse)
