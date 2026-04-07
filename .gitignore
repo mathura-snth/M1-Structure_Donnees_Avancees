@@ -1,0 +1,13 @@
+# Fichiers de données et graphiques
+*.plot
+*.pdf
+
+# Fichiers compilés C/C++
+*.o
+arraylist_analysis
+
+# Fichiers compilés Java
+*.class
+
+# Fichiers cachés système (ex: Mac)
+.DS_Store
