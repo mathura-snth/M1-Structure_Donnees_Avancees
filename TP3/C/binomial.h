@@ -15,7 +15,7 @@ typedef struct tas_s {
 
 // Création
 arbre_t* binomial_create(int key);
-tas_t* tas_create();
+tas_t* tas_create(void);
 
 // Opérations principales demandées par l'énoncé
 tas_t* tas_fusion(tas_t *h1, tas_t *h2);

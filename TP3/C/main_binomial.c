@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "binomial.h"
 
-int main() {
+int main(void) {
     printf("Création d'un tas binomial vide...\n");
     tas_t *mon_tas = tas_create();
 

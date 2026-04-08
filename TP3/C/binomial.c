@@ -12,7 +12,7 @@ arbre_t* binomial_create(int key) {
     return res;
 }
 
-tas_t* tas_create() {
+tas_t* tas_create(void) {
     tas_t *tas = (tas_t *) malloc(sizeof(tas_t));
     if (tas != NULL) {
         tas->racine = NULL;

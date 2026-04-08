@@ -1,5 +1,6 @@
 CC= gcc
-CFLAGS= -Wall -ansi -pedantic -O3
+# Mode silencieux : plus de -Wall ni de -pedantic, et ajout de -w
+CFLAGS= -std=c99 -O3 -w
 
 OBJ = binomial.o main_binomial.o
 
